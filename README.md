@@ -315,6 +315,7 @@ Below **0.35** the run stops with `document too noisy`.
 - Reconciliation can only be checked when all three of total, paid and due are present.
 - Image quality matters: very blurry or cropped images depend on the vision model's reading, and an image request can occasionally fail on the first attempt (rate limit or timeout); retrying works.
 - The vision model is a Groq preview model and may change; update `GROQ_VISION_MODEL` if it is retired.
+- The image model API limits make it so that you can only give an input every 20 seconds. If you get the error {"status":"no_amounts_found","reason":"image could not be read"}, please wait for 30 seconds and run it again to see if it really is an error or API limits
 
 ---
 
