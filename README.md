@@ -72,11 +72,11 @@ A demo is running at:
 
 **https://washbasin-unleash-headset.ngrok-free.dev**
 
-It is available while my computer is switched on and the server and tunnel are running. If it does not respond, use Section 2 instead. Otherwise, you may do it on your own.
+It is available while my computer is switched on and the server and tunnel are running (unlikely). But better to make your own ngrok demo and run from there. The steps are the same for both ways. Just make sure to use your own url wherever you see mine.
 
 Open PowerShell (any folder) and set the link **once in each new window**:
 ```
-$url = "https://washbasin-unleash-headset.ngrok-free.dev"
+$url = "https://washbasin-unleash-headset.ngrok-free.dev" or yours
 ```
 If you open a new PowerShell window, run this line again; otherwise you will see `URL rejected: No host part in the URL`.
 
