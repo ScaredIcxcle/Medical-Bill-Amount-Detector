@@ -24,7 +24,7 @@ Create a free key at https://console.groq.com/keys, then run this, replacing `PA
 ```
 Set-Content -Path .env -Value "GROQ_API_KEY=PASTE_YOUR_KEY_HERE" -Encoding ascii
 ```
-otherwise, you can just use the groq key already in the .env.
+otherwise, you can just use the groq key already in the .env, however this might not work because I may already have run out of free credits during making this.
 The `.env` file is ignored by git and never uploaded. Skip this step if you only want to test text.
 
 ### Step 4. Test it. Choose Option A or Option B
