@@ -1,6 +1,3 @@
-# Plum_Benefits_Task_4
-github repo for plum benefits internship oa
-
 # Medical Bill Amount Detector
 
 **Pipeline:** input -> Step 1 extract -> Step 2 normalize -> Step 3 classify -> Step 4 final output
